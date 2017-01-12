@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="homepage">首页</string>
+    <string name="basestation_id">basestation_id</string>
+    <string name="basestation_map_mark">地图标记</string>
+    <string name="params_configuration">参数配置</string>
+    <string name="device_setup">安装基站</string>
+    <string name="no_modification_change">参数配置没有修改,无需提交设置请求</string>
+
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_sure">确定</string>
+
+    <string name="dialog_delete_all_content">您确定要删除全部读卡信息吗？</string>
+    <string name="delete_reminder">删除提示</string>
+    <string name="dialog_delete_one_selected">您确定要删除这条读卡信息吗？</string>
+
+    <string name="install_bs_map_addr">选择基站地址</string>
+
+
+</resources>

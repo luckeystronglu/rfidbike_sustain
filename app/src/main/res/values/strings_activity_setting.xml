@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_setting_title">Settings</string>
+    <string name="personalInformation">Personal information </string>
+    <string name="updatePassword">Reset Password</string>
+    <string name="versionUpdate">Version Update</string>
+    <string name="aboutUs">About Us</string>
+    <string name="personalUserName">Name</string>
+    <string name="personalCardId">Card ID</string>
+    <string name="personalPhoneNumber">Phone Number</string>
+    <string name="personalAddr">Address</string>
+    <string name="personalWordNum">Word Number</string>
+    <string name="updatePasswordOriginal">Original Password</string>
+    <string name="updatePasswordNew">New Password</string>
+    <string name="updatePasswordConfirm">Confirm Password</string>
+    <string name="updatePasswordSure">Sure</string><string name="versionUpdateUpdate">Update</string>
+
+</resources>

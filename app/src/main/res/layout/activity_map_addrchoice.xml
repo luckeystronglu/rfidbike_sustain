@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.foxconn.rfid.theowner.view.widgets.Header
+        android:id="@+id/map_addr_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerTitle="@string/install_bs_map_addr"
+        app:leftIcon="@drawable/back"
+        app:rightIcon="@drawable/save66"
+    />
+    <FrameLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/map_addr_choice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/shape_map_location_ll"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/layout_y_5"
+            android:alpha="0.6"
+            android:layout_marginTop="@dimen/layout_y_4"
+            android:layout_marginLeft="@dimen/layout_x_4"
+            android:layout_marginRight="@dimen/layout_x_4"
+            >
+            <ImageView
+                android:layout_width="@dimen/btn_img_height_smaller"
+                android:layout_height="@dimen/btn_img_height_smaller"
+                android:src="@drawable/location_red_user_point"/>
+
+            <TextView
+                android:id="@+id/tv_install_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_horizontal_normal"
+                android:text=""
+                android:textColor="@color/textDarkGray"
+                android:textSize="@dimen/font_size_smaller"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Operation</string>
+    <string name="carInfo">Car Info</string>
+    <string name="historicalTrack">Historical Track</string>
+    <string name="myInsurance">My Insurance</string>
+    <string name="theLossOfClaim">The loss of claim</string>
+    <string name="dataLoading">Data Loading</string>
+    <string name="custom">Custom</string>
+    <string name="btn_txt_confirm">Confirm</string>
+    <string name="btn_txt_cancel">Cancel</string>
+    <string name="toast_msg_call_webservice_fail">Call webservice failed</string>
+    <string name="network_error">Network error</string>
+
+
+    <string name="decrease"><![CDATA[<]]></string>
+    <string name="increase"><![CDATA[>]]></string>
+    <string name="logoinfo">logoinfo</string>
+
+    <!--版本更新 -->
+    <string name="last_version">Latest Version:</string>
+    <string name="version_check">Version check</string>
+    <string name="home_dlg_download_update_title">Update App</string>
+    <string name="home_dlg_download_update">Update</string>
+    <string name="home_dlg_download_cansel">cancel</string>
+    <string name="home_dlg_download_title">Version Check</string>
+    <string name="lastest_version">It is the latest version</string>
+    <string name="get_version_failed">Get version failed</string>
+    <string name="home_dlg_download_update_fail">Download failed</string>
+
+    <string name="applyreport">Apply lost</string>
+
+    <string name="basic_insurance_info">basic insurance info</string>
+    <string name="name">name</string>
+    <string name="idCardNo">idCardNumber</string>
+    <string name="insuranceName">insuranceName</string>
+    <string name="startTime">startTime</string>
+    <string name="endTime">endTime</string>
+    <string name="money">money</string>
+    <string name="loss_bike">loss_bike</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--安装基站 -->
+    <string name="base_id">base id</string>
+    <string name="base_id_input">base id input</string>
+    <string name="base_type">base type</string>
+    <string name="default_type_name">default_type name</string>
+    <string name="include_company">include company</string>
+    <string name="include_company_choice">include company choice</string>
+    <string name="video_id">video id</string>
+    <string name="video_id_input">video id input</string>
+    <string name="base_name">base name</string>
+    <string name="base_name_input">base name input</string>
+    <string name="base_address">base address</string>
+    <string name="base_address_input">base address input</string>
+    <string name="longitude">longitude</string>
+    <string name="latitude">latitude</string>
+    <string name="IMEI_num">IMEI num</string>
+    <string name="IMEI_num_input">IMEI num input</string>
+    <string name="IMSI">IMSI</string>
+    <string name="IMSI_input">IMSI input</string>
+    <string name="MSISDN">MSISDN</string>
+    <string name="MSISDN_input">MSISDN input</string>
+    <string name="status">status</string>
+    <string name="expire_date">expire date</string>
+    <string name="SIM_expire_date">SIM expire date</string>
+    <string name="carrier_operator">carrier operator</string>
+    <string name="carrier_operator_input">carrier operator input</string>
+    <string name="balance">balance</string>
+    <string name="note">note</string>
+
+</resources>

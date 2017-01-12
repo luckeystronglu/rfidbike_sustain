@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_y_60"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/layout_x_10"
+        android:text="搜索历史"
+        android:textColor="@color/textGray"
+        android:textSize="@dimen/font_size_normal"
+        />
+
+    <TextView
+        android:id="@+id/tv_deleteAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/layout_x_10"
+        android:gravity="center"
+        android:text="清除历史"
+        android:textColor="@color/actionsheet_blue"
+        android:textSize="@dimen/font_size_normal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_y_1"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grayLine"/>
+</RelativeLayout>

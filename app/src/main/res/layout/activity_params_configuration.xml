@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_login">
+
+    <com.foxconn.rfid.theowner.view.widgets.Header
+        android:layout_alignParentTop="true"
+        android:id="@+id/config_header_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerTitle="@string/params_configuration"
+        app:leftIcon="@drawable/back"
+        app:rightIconVisible="gone"
+    />
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_below="@+id/config_header_btn"
+        android:layout_above="@+id/ll_baseStation_config"
+        android:layout_marginLeft="@dimen/margin_horizontal_large"
+        android:layout_marginRight="@dimen/margin_horizontal_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:divider="@drawable/diliver_params_config"
+            android:showDividers="beginning|middle|end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/part1_params_config"/>
+            <include layout="@layout/part2_params_config"/>
+            <include layout="@layout/part3_params_config"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_baseStation_config"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_y_50"
+        android:background="@color/basicBlack"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/ico_con"
+                android:drawablePadding="@dimen/padding_horizontal_8"
+                android:gravity="center"
+                android:text="设置"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_normal" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="@dimen/layout_x_1"
+            android:layout_height="match_parent"
+            android:background="@color/caldroid_lighter_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_reboot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_reboot"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/ico_restart"
+                android:drawablePadding="@dimen/padding_horizontal_8"
+                android:gravity="center"
+                android:text="重启"
+                android:textColor="@color/red"
+                android:textSize="@dimen/font_size_normal" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

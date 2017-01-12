@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_horizontal_large"
+        android:layout_marginRight="@dimen/margin_horizontal_large"
+        android:background="@drawable/shape_readcard_msg_item"
+        android:divider="@drawable/diliver_readcard_msg"
+        android:showDividers="middle"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/distance_height_10">
+            <TextView
+                android:id="@+id/tv_readcard_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/ico_news"
+                android:drawablePadding="@dimen/padding_horizontal_8"
+                android:gravity="center_vertical"
+                android:text="读卡信息"
+                />
+            <TextView
+                android:id="@+id/tv_readcard_date"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="2016-12-18 09:32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_readcard_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/padding_horizontal_12"
+                android:paddingRight="@dimen/padding_horizontal_12"
+                android:lineSpacingMultiplier="1.3"
+                android:gravity="center_vertical"
+                android:text="显示基站详情读到的卡的相关信息XXXXXX" />
+
+            <ImageView
+                android:id="@+id/iv_readcard_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:paddingRight="@dimen/padding_horizontal_20"
+                android:paddingLeft="@dimen/padding_horizontal_20"
+                android:paddingTop="@dimen/distance_height_10"
+                android:paddingBottom="@dimen/distance_height_10"
+                android:src="@drawable/ico_delete"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/distance_height_10"
+        android:background="#f2f2f2"/>
+
+
+</LinearLayout>

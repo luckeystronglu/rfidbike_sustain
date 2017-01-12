@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="homepage">homepage</string>
+    <string name="basestation_id">basestation_id</string>
+    <string name="basestation_map_mark">Map Marks</string>
+    <string name="params_configuration">Params Config</string>
+    <string name="device_setup">Install BaseStation</string>
+    <string name="no_modification_change">no modification change,please do not submit setting again</string>
+
+    <string name="dialog_cancel">cancel</string>
+    <string name="dialog_sure">sure</string>
+
+    <string name="dialog_delete_all_content">Delete all,are you sure？</string>
+    <string name="delete_reminder">Delete reminder</string>
+    <string name="dialog_delete_one_selected">Delete that one,are you sure？</string>
+
+    <string name="install_bs_map_addr">install address choice</string>
+</resources>

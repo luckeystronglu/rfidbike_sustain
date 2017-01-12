@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.foxconn.rfid.theowner.view.widgets.Header
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerTitle="@string/homepage"
+        app:leftIcon="@drawable/ico_setting"
+        app:rightIcon="@drawable/ico_search_my"/>
+
+
+    <ImageView
+        android:id="@+id/iv_home_ad"
+        android:src="@drawable/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_y_50"
+        android:background="@color/basicBlack"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_baseStationList"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/basicBlack"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <ImageView
+
+                android:layout_width="@dimen/layout_x_20"
+                android:layout_height="@dimen/layout_x_20"
+                android:src="@drawable/ico_list"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_normal"
+                android:layout_marginLeft="@dimen/layout_x_10"
+                android:text="基站列表"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/layout_x_1"
+            android:layout_height="match_parent"
+            android:background="@color/caldroid_lighter_gray"/>
+
+        <LinearLayout
+            android:id="@+id/ll_installBaseStation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/basicBlack"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="@dimen/layout_x_20"
+                android:layout_height="@dimen/layout_x_20"
+                android:src="@drawable/ico_install"/>
+
+            <TextView
+                android:textSize="@dimen/font_size_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/layout_x_10"
+                android:text="安装基站"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">运维</string>
+    <string name="activity_main_title">我的车辆</string>
+    <string name="carInfo">车辆详情</string>
+    <string name="carNo">车牌号码</string>
+
+    <string name="historicalTrack">历史轨迹</string>
+    <string name="myInsurance">我的保险</string>
+    <string name="theLossOfClaim">挂失索赔</string>
+    <string name="dataLoading">数据加载</string>
+    <string name="custom">自定义</string>
+    <string name="thetitlesave">输入需要保存的标题</string>
+    <string name="btn_txt_confirm">"确定"</string>
+    <string name="btn_txt_cancel">"取消"</string>
+    <string name="toast_msg_call_webservice_fail">"系统服务器异常,请稍后再试"</string>
+    <string name="network_error">"网络请求错误"</string>
+    <string name="decrease"><![CDATA[<]]></string>
+    <string name="increase"><![CDATA[>]]></string>
+    <string name="logoinfo">"乐车汇-运维版"</string>
+
+    <!--版本更新-->
+    <string name="last_version">Latest Version:</string>
+    <string name="version_check">软件更新</string>
+    <string name="home_dlg_download_update_title">应用更新</string>
+    <string name="home_dlg_download_update">更新</string>
+    <string name="home_dlg_download_cansel">取消</string>
+    <string name="home_dlg_download_title">版本更新</string>
+    <string name="lastest_version">当前已是最新版本</string>
+    <string name="get_version_failed">获取版本失败</string>
+    <string name="home_dlg_download_update_fail">下载失败</string>
+
+    <string name="basic_insurance_info">基本信息</string>
+    <string name="name">姓名</string>
+    <string name="idCardNo">身份证号</string>
+    <string name="insuranceName">险种类型</string>
+    <string name="startTime">起始时间</string>
+    <string name="endTime">结束时间</string>
+    <string name="money">金额</string>
+    <!--Home-->
+    <string name="no_insurance">未投保</string>
+    <string name="insurance_normal">我的保险</string>
+    <string name="insurance_expire">保险过期</string>
+
+
+    <string name="apply_lost">已申请丢失</string>
+    <string name="use_normal">正常使用</string>
+    <string name="apply_payout">申请索赔</string>
+    <string name="applied_payout">已申请索赔</string>
+    <string name="apply_cash">申请提现</string>
+    <string name="bike_lost">车辆丢失</string>
+    <string name="enable_apply_payout">可申请索赔</string>
+    <string name="loss_bike">申请挂失</string>
+    <string name="payout_apply_have_send">索赔申请已提交</string>
+
+    <!--安装基站 -->
+    <string name="base_id">基站ID</string>
+    <string name="base_id_input">请输入基站ID</string>
+    <string name="base_type">基站类型</string>
+    <string name="default_type_name">默认类型名称</string>
+    <string name="include_company">归属公司</string>
+    <string name="include_company_choice">请选择归属公司名称</string>
+    <string name="video_id">视频ID</string>
+    <string name="video_id_input">请输入视频ID</string>
+    <string name="base_name">基站名称</string>
+    <string name="base_name_input">请输入基站名称</string>
+    <string name="base_address">基站详细地址</string>
+    <string name="base_address_input">请输入基站详细地址</string>
+    <string name="longitude">经度</string>
+    <string name="latitude">纬度</string>
+    <string name="IMEI_num">IMEI号</string>
+    <string name="IMEI_num_input">请输入IMEI号</string>
+    <string name="IMSI">IMSI</string>
+    <string name="IMSI_input">请输入IMSI号</string>
+    <string name="MSISDN">MSISDN</string>
+    <string name="MSISDN_input">请输入MSISDN号</string>
+    <string name="status">状态</string>
+    <string name="expire_date">过期日期</string>
+    <string name="SIM_expire_date">SIM过期日期</string>
+    <string name="carrier_operator">运营商</string>
+    <string name="carrier_operator_input">请输入运营商</string>
+    <string name="balance">余额</string>
+    <string name="note">备注</string>
+
+</resources>

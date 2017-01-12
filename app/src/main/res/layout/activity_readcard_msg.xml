@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.foxconn.rfid.theowner.view.widgets.Header
+            android:id="@+id/readcard_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:leftIcon="@drawable/back"
+            app:rightIconVisible="gone" />
+
+        <TextView
+            android:id="@+id/delete_all_tv"
+            android:clickable="true"
+            android:textColor="#fff"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:text="全部删除"/>
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ListView
+            android:id="@+id/lv_readcard_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:visibility="visible" />
+        <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#926684e6"-->
+        <!--android:orientation="vertical">-->
+
+        <!--</LinearLayout>-->
+
+        <!--</ScrollView>-->
+
+        <LinearLayout
+            android:id="@+id/ll_bs_device"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="暂无消息"
+                android:textColor="@color/textDarkGray"
+                android:textSize="@dimen/font_size_normal" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_y_50"
+        android:background="@color/basicBlack"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_config"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_baseStation_config"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/ico_con2"
+                android:drawablePadding="@dimen/padding_horizontal_8"
+                android:gravity="center"
+                android:text="参数配置"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_normal" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="@dimen/layout_x_1"
+            android:layout_height="match_parent"
+            android:background="@color/caldroid_lighter_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_mapshow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_baseStation_mapShow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/ico_map"
+                android:drawablePadding="@dimen/padding_horizontal_8"
+                android:gravity="center"
+                android:text="地图显示"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_normal" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
